@@ -52,7 +52,7 @@ function moree() {
 
   const key = "0710a29726464b9f86a35405240312";
   const city = lastSearchedCountry;
-  const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&aqi=no`;
 
   fetch(url)
     .then((res) => res.json())
